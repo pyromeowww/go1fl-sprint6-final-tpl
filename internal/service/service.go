@@ -6,7 +6,7 @@ import (
 
 	"github.com/Yandex-Practicum/go1fl-sprint6-final/pkg/morse"
 )
-
+// Ошибки
 var (
 	ErrEmptyInput  = errors.New("input string is empty")
 	ErrDecodeInput = errors.New("failed to decode morse code: invalid morse sequence")
