@@ -9,8 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Yandex-Practicum/go1fl-sprint6-final/internal/service"
 	"golang.org/x/net/html"
+
+	"github.com/Yandex-Practicum/go1fl-sprint6-final/internal/service"
 )
 
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
